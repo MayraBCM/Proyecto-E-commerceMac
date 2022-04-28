@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		C8E12BEE281AEDFB00F8FB21 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E12BED281AEDFB00F8FB21 /* File.swift */; };
 		C8E12BF0281AF1F600F8FB21 /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E12BEF281AF1F600F8FB21 /* File2.swift */; };
+		C8E12BF8281AF24100F8FB21 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E12BF1281AF24100F8FB21 /* HomePresenter.swift */; };
+		C8E12BF9281AF24100F8FB21 /* HomeLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E12BF2281AF24100F8FB21 /* HomeLocalDataManager.swift */; };
+		C8E12BFA281AF24100F8FB21 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E12BF3281AF24100F8FB21 /* HomeProtocols.swift */; };
+		C8E12BFB281AF24100F8FB21 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E12BF4281AF24100F8FB21 /* HomeInteractor.swift */; };
+		C8E12BFC281AF24100F8FB21 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E12BF5281AF24100F8FB21 /* HomeView.swift */; };
+		C8E12BFD281AF24100F8FB21 /* HomeRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E12BF6281AF24100F8FB21 /* HomeRemoteDataManager.swift */; };
+		C8E12BFE281AF24100F8FB21 /* HomeWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E12BF7281AF24100F8FB21 /* HomeWireFrame.swift */; };
 		D0FA12C2281A25480044405E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FA12C1281A25480044405E /* AppDelegate.swift */; };
 		D0FA12C4281A25480044405E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FA12C3281A25480044405E /* SceneDelegate.swift */; };
 		D0FA12C6281A25480044405E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FA12C5281A25480044405E /* ViewController.swift */; };
@@ -21,6 +28,13 @@
 /* Begin PBXFileReference section */
 		C8E12BED281AEDFB00F8FB21 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		C8E12BEF281AF1F600F8FB21 /* File2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
+		C8E12BF1281AF24100F8FB21 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		C8E12BF2281AF24100F8FB21 /* HomeLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLocalDataManager.swift; sourceTree = "<group>"; };
+		C8E12BF3281AF24100F8FB21 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		C8E12BF4281AF24100F8FB21 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		C8E12BF5281AF24100F8FB21 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C8E12BF6281AF24100F8FB21 /* HomeRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRemoteDataManager.swift; sourceTree = "<group>"; };
+		C8E12BF7281AF24100F8FB21 /* HomeWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireFrame.swift; sourceTree = "<group>"; };
 		D0FA12BE281A25480044405E /* E-commerceMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-commerceMac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FA12C1281A25480044405E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0FA12C3281A25480044405E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +86,13 @@
 				D0FA12D2281A254A0044405E /* Info.plist */,
 				D0FA12CA281A25480044405E /* E_commerceMac.xcdatamodeld */,
 				C8E12BED281AEDFB00F8FB21 /* File.swift */,
+				C8E12BF1281AF24100F8FB21 /* HomePresenter.swift */,
+				C8E12BF2281AF24100F8FB21 /* HomeLocalDataManager.swift */,
+				C8E12BF3281AF24100F8FB21 /* HomeProtocols.swift */,
+				C8E12BF4281AF24100F8FB21 /* HomeInteractor.swift */,
+				C8E12BF5281AF24100F8FB21 /* HomeView.swift */,
+				C8E12BF6281AF24100F8FB21 /* HomeRemoteDataManager.swift */,
+				C8E12BF7281AF24100F8FB21 /* HomeWireFrame.swift */,
 			);
 			path = "E-commerceMac";
 			sourceTree = "<group>";
@@ -147,11 +168,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E12BFD281AF24100F8FB21 /* HomeRemoteDataManager.swift in Sources */,
+				C8E12BF8281AF24100F8FB21 /* HomePresenter.swift in Sources */,
+				C8E12BFE281AF24100F8FB21 /* HomeWireFrame.swift in Sources */,
 				C8E12BEE281AEDFB00F8FB21 /* File.swift in Sources */,
 				D0FA12C6281A25480044405E /* ViewController.swift in Sources */,
+				C8E12BFB281AF24100F8FB21 /* HomeInteractor.swift in Sources */,
 				D0FA12C2281A25480044405E /* AppDelegate.swift in Sources */,
+				C8E12BFC281AF24100F8FB21 /* HomeView.swift in Sources */,
+				C8E12BFA281AF24100F8FB21 /* HomeProtocols.swift in Sources */,
 				D0FA12CC281A25480044405E /* E_commerceMac.xcdatamodeld in Sources */,
 				C8E12BF0281AF1F600F8FB21 /* File2.swift in Sources */,
+				C8E12BF9281AF24100F8FB21 /* HomeLocalDataManager.swift in Sources */,
 				D0FA12C4281A25480044405E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
