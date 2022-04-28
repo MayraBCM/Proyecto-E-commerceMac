@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8E12BEE281AEDFB00F8FB21 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E12BED281AEDFB00F8FB21 /* File.swift */; };
 		D0FA12C2281A25480044405E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FA12C1281A25480044405E /* AppDelegate.swift */; };
 		D0FA12C4281A25480044405E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FA12C3281A25480044405E /* SceneDelegate.swift */; };
 		D0FA12C6281A25480044405E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FA12C5281A25480044405E /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C8E12BED281AEDFB00F8FB21 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		D0FA12BE281A25480044405E /* E-commerceMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-commerceMac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FA12C1281A25480044405E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0FA12C3281A25480044405E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				D0FA12CF281A254A0044405E /* LaunchScreen.storyboard */,
 				D0FA12D2281A254A0044405E /* Info.plist */,
 				D0FA12CA281A25480044405E /* E_commerceMac.xcdatamodeld */,
+				C8E12BED281AEDFB00F8FB21 /* File.swift */,
 			);
 			path = "E-commerceMac";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E12BEE281AEDFB00F8FB21 /* File.swift in Sources */,
 				D0FA12C6281A25480044405E /* ViewController.swift in Sources */,
 				D0FA12C2281A25480044405E /* AppDelegate.swift in Sources */,
 				D0FA12CC281A25480044405E /* E_commerceMac.xcdatamodeld in Sources */,
