@@ -57,6 +57,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C8E12BFF281AF28200F8FB21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C8E12BF5281AF24100F8FB21 /* HomeView.swift */,
+				D0FA12C7281A25480044405E /* Main.storyboard */,
+				D0FA12CF281A254A0044405E /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C8E12C00281AF2A500F8FB21 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C8E12BF1281AF24100F8FB21 /* HomePresenter.swift */,
+				C8E12BF2281AF24100F8FB21 /* HomeLocalDataManager.swift */,
+				C8E12BF3281AF24100F8FB21 /* HomeProtocols.swift */,
+				C8E12BF4281AF24100F8FB21 /* HomeInteractor.swift */,
+				C8E12BF6281AF24100F8FB21 /* HomeRemoteDataManager.swift */,
+				C8E12BF7281AF24100F8FB21 /* HomeWireFrame.swift */,
+				C8E12BFF281AF28200F8FB21 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		D0FA12B5281A25470044405E = {
 			isa = PBXGroup;
 			children = (
@@ -76,23 +100,15 @@
 		D0FA12C0281A25480044405E /* E-commerceMac */ = {
 			isa = PBXGroup;
 			children = (
+				C8E12C00281AF2A500F8FB21 /* Home */,
 				C8E12BEF281AF1F600F8FB21 /* File2.swift */,
 				D0FA12C1281A25480044405E /* AppDelegate.swift */,
 				D0FA12C3281A25480044405E /* SceneDelegate.swift */,
 				D0FA12C5281A25480044405E /* ViewController.swift */,
-				D0FA12C7281A25480044405E /* Main.storyboard */,
 				D0FA12CD281A254A0044405E /* Assets.xcassets */,
-				D0FA12CF281A254A0044405E /* LaunchScreen.storyboard */,
 				D0FA12D2281A254A0044405E /* Info.plist */,
 				D0FA12CA281A25480044405E /* E_commerceMac.xcdatamodeld */,
 				C8E12BED281AEDFB00F8FB21 /* File.swift */,
-				C8E12BF1281AF24100F8FB21 /* HomePresenter.swift */,
-				C8E12BF2281AF24100F8FB21 /* HomeLocalDataManager.swift */,
-				C8E12BF3281AF24100F8FB21 /* HomeProtocols.swift */,
-				C8E12BF4281AF24100F8FB21 /* HomeInteractor.swift */,
-				C8E12BF5281AF24100F8FB21 /* HomeView.swift */,
-				C8E12BF6281AF24100F8FB21 /* HomeRemoteDataManager.swift */,
-				C8E12BF7281AF24100F8FB21 /* HomeWireFrame.swift */,
 			);
 			path = "E-commerceMac";
 			sourceTree = "<group>";
