@@ -22,10 +22,23 @@ class HomeView: UIViewController {
     @IBOutlet weak var login: UIButton!
     
     @IBAction func logIn(_ sender: Any) {
+        
+        
     }
     
     //Cambio de vista
     //presenter?.showViewX(with: data)
+    
+    
+    
+    
+    
+    
+    
+    //Formato
+    login.layer.backgroundColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1).cgColor
+    login.layer.cornerRadius = 65
+    
     
 }
 
