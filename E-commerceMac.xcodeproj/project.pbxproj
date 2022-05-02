@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C85E9D3A28201E34004DEB93 /* PRUEBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9D3928201E34004DEB93 /* PRUEBA.swift */; };
+		C85E9D3C28201E47004DEB93 /* Home in Resources */ = {isa = PBXBuildFile; fileRef = C85E9D3B28201E47004DEB93 /* Home */; };
 		C8E12BF0281AF1F600F8FB21 /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E12BEF281AF1F600F8FB21 /* File2.swift */; };
 		D0FA12C2281A25480044405E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FA12C1281A25480044405E /* AppDelegate.swift */; };
 		D0FA12C4281A25480044405E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FA12C3281A25480044405E /* SceneDelegate.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C85E9D3928201E34004DEB93 /* PRUEBA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRUEBA.swift; sourceTree = "<group>"; };
+		C85E9D3B28201E47004DEB93 /* Home */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Home; sourceTree = "<group>"; };
 		C8E12BEF281AF1F600F8FB21 /* File2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
 		D0FA12BE281A25480044405E /* E-commerceMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-commerceMac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FA12C1281A25480044405E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				D0FA12CD281A254A0044405E /* Assets.xcassets */,
 				D0FA12D2281A254A0044405E /* Info.plist */,
 				D0FA12CA281A25480044405E /* E_commerceMac.xcdatamodeld */,
+				C85E9D3928201E34004DEB93 /* PRUEBA.swift */,
+				C85E9D3B28201E47004DEB93 /* Home */,
 			);
 			path = "E-commerceMac";
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0FA12CE281A254A0044405E /* Assets.xcassets in Resources */,
+				C85E9D3C28201E47004DEB93 /* Home in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +145,7 @@
 			files = (
 				D0FA12C6281A25480044405E /* ViewController.swift in Sources */,
 				D0FA12C2281A25480044405E /* AppDelegate.swift in Sources */,
+				C85E9D3A28201E34004DEB93 /* PRUEBA.swift in Sources */,
 				D0FA12CC281A25480044405E /* E_commerceMac.xcdatamodeld in Sources */,
 				C8E12BF0281AF1F600F8FB21 /* File2.swift in Sources */,
 				D0FA12C4281A25480044405E /* SceneDelegate.swift in Sources */,
