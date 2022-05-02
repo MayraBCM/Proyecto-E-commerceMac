@@ -8,8 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C85E9D3A28201E34004DEB93 /* PRUEBA.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9D3928201E34004DEB93 /* PRUEBA.swift */; };
-		C85E9D3C28201E47004DEB93 /* Home in Resources */ = {isa = PBXBuildFile; fileRef = C85E9D3B28201E47004DEB93 /* Home */; };
-		C85E9D3E28201EBD004DEB93 /* LogIn in Resources */ = {isa = PBXBuildFile; fileRef = C85E9D3D28201EBD004DEB93 /* LogIn */; };
+		C85E9D5228203433004DEB93 /* HomeLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9D4428203433004DEB93 /* HomeLocalDataManager.swift */; };
+		C85E9D5328203433004DEB93 /* HomeRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9D4528203433004DEB93 /* HomeRemoteDataManager.swift */; };
+		C85E9D5428203433004DEB93 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9D4828203433004DEB93 /* HomePresenter.swift */; };
+		C85E9D5528203433004DEB93 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9D4A28203433004DEB93 /* HomeView.swift */; };
+		C85E9D5628203433004DEB93 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85E9D4B28203433004DEB93 /* HomeView.storyboard */; };
+		C85E9D5728203433004DEB93 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9D4D28203433004DEB93 /* HomeProtocols.swift */; };
+		C85E9D5828203433004DEB93 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9D4F28203433004DEB93 /* HomeInteractor.swift */; };
+		C85E9D5928203433004DEB93 /* HomeWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85E9D5128203433004DEB93 /* HomeWireFrame.swift */; };
 		C8E12BF0281AF1F600F8FB21 /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E12BEF281AF1F600F8FB21 /* File2.swift */; };
 		D0FA12C2281A25480044405E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FA12C1281A25480044405E /* AppDelegate.swift */; };
 		D0FA12C4281A25480044405E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FA12C3281A25480044405E /* SceneDelegate.swift */; };
@@ -20,8 +26,14 @@
 
 /* Begin PBXFileReference section */
 		C85E9D3928201E34004DEB93 /* PRUEBA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRUEBA.swift; sourceTree = "<group>"; };
-		C85E9D3B28201E47004DEB93 /* Home */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Home; sourceTree = "<group>"; };
-		C85E9D3D28201EBD004DEB93 /* LogIn */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LogIn; sourceTree = "<group>"; };
+		C85E9D4428203433004DEB93 /* HomeLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeLocalDataManager.swift; sourceTree = "<group>"; };
+		C85E9D4528203433004DEB93 /* HomeRemoteDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRemoteDataManager.swift; sourceTree = "<group>"; };
+		C85E9D4828203433004DEB93 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		C85E9D4A28203433004DEB93 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C85E9D4B28203433004DEB93 /* HomeView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
+		C85E9D4D28203433004DEB93 /* HomeProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		C85E9D4F28203433004DEB93 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		C85E9D5128203433004DEB93 /* HomeWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWireFrame.swift; sourceTree = "<group>"; };
 		C8E12BEF281AF1F600F8FB21 /* File2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
 		D0FA12BE281A25480044405E /* E-commerceMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-commerceMac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FA12C1281A25480044405E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +55,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C85E9D4128203397004DEB93 /* new */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = new;
+			sourceTree = "<group>";
+		};
+		C85E9D4228203433004DEB93 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C85E9D4328203433004DEB93 /* DataManager */,
+				C85E9D4628203433004DEB93 /* Entity */,
+				C85E9D4728203433004DEB93 /* Presenter */,
+				C85E9D4928203433004DEB93 /* View */,
+				C85E9D4C28203433004DEB93 /* Protocols */,
+				C85E9D4E28203433004DEB93 /* Interactor */,
+				C85E9D5028203433004DEB93 /* Router */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C85E9D4328203433004DEB93 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				C85E9D4428203433004DEB93 /* HomeLocalDataManager.swift */,
+				C85E9D4528203433004DEB93 /* HomeRemoteDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		C85E9D4628203433004DEB93 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		C85E9D4728203433004DEB93 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C85E9D4828203433004DEB93 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C85E9D4928203433004DEB93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C85E9D4A28203433004DEB93 /* HomeView.swift */,
+				C85E9D4B28203433004DEB93 /* HomeView.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C85E9D4C28203433004DEB93 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C85E9D4D28203433004DEB93 /* HomeProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C85E9D4E28203433004DEB93 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C85E9D4F28203433004DEB93 /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C85E9D5028203433004DEB93 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C85E9D5128203433004DEB93 /* HomeWireFrame.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		D0FA12B5281A25470044405E = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +152,8 @@
 		D0FA12C0281A25480044405E /* E-commerceMac */ = {
 			isa = PBXGroup;
 			children = (
+				C85E9D4228203433004DEB93 /* Home */,
+				C85E9D4128203397004DEB93 /* new */,
 				C8E12BEF281AF1F600F8FB21 /* File2.swift */,
 				D0FA12C1281A25480044405E /* AppDelegate.swift */,
 				D0FA12C3281A25480044405E /* SceneDelegate.swift */,
@@ -70,8 +162,6 @@
 				D0FA12D2281A254A0044405E /* Info.plist */,
 				D0FA12CA281A25480044405E /* E_commerceMac.xcdatamodeld */,
 				C85E9D3928201E34004DEB93 /* PRUEBA.swift */,
-				C85E9D3B28201E47004DEB93 /* Home */,
-				C85E9D3D28201EBD004DEB93 /* LogIn */,
 			);
 			path = "E-commerceMac";
 			sourceTree = "<group>";
@@ -134,9 +224,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C85E9D3E28201EBD004DEB93 /* LogIn in Resources */,
+				C85E9D5628203433004DEB93 /* HomeView.storyboard in Resources */,
 				D0FA12CE281A254A0044405E /* Assets.xcassets in Resources */,
-				C85E9D3C28201E47004DEB93 /* Home in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,10 +236,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C85E9D5328203433004DEB93 /* HomeRemoteDataManager.swift in Sources */,
 				D0FA12C6281A25480044405E /* ViewController.swift in Sources */,
+				C85E9D5928203433004DEB93 /* HomeWireFrame.swift in Sources */,
+				C85E9D5228203433004DEB93 /* HomeLocalDataManager.swift in Sources */,
+				C85E9D5828203433004DEB93 /* HomeInteractor.swift in Sources */,
+				C85E9D5528203433004DEB93 /* HomeView.swift in Sources */,
+				C85E9D5728203433004DEB93 /* HomeProtocols.swift in Sources */,
 				D0FA12C2281A25480044405E /* AppDelegate.swift in Sources */,
 				C85E9D3A28201E34004DEB93 /* PRUEBA.swift in Sources */,
 				D0FA12CC281A25480044405E /* E_commerceMac.xcdatamodeld in Sources */,
+				C85E9D5428203433004DEB93 /* HomePresenter.swift in Sources */,
 				C8E12BF0281AF1F600F8FB21 /* File2.swift in Sources */,
 				D0FA12C4281A25480044405E /* SceneDelegate.swift in Sources */,
 			);
