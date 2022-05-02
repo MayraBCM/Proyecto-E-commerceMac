@@ -19,7 +19,10 @@ class HomeView: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    @IBOutlet weak var login: UIButton!
     
+    @IBAction func logIn(_ sender: Any) {
+    }
     
     //Cambio de vista
     //presenter?.showViewX(with: data)
